@@ -1,0 +1,149 @@
+*{
+    font-family: "Playfair Display", serif;
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --x:rgb(79, 7, 7);
+}
+#logo{
+  
+    height: 100px;
+    
+}
+ul li{
+    font-size: 20px;
+    
+}
+li i{
+    color: rgb(198, 196, 196);
+}
+#button{
+    background-color:var(--x);
+    color: white;
+}
+#button:hover{
+    background-color: white;
+    color: var(--x);
+    border: 1px solid var(--x);
+}
+@media(max-width:992px)
+{
+    .icon{
+        display:none;
+    }
+}
+#main{
+    background-image: url('./images/8cb4eac3ae7a7cac23441e22cf42c175.jpg');
+    /*height: 120vh;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#b1{
+    width: 100%;
+    height: 120vh;
+    background-color: rgba(1, 0, 0, 0.992);
+}
+#welcome{
+    padding-left: 5%;
+    padding-top: 22%;
+}
+#welcome h4{
+    color: white;
+    font-size: 30px;
+}
+#welcome h1{
+    color: white;
+    font-size: 100px;
+}
+
+@media(max-width:600px){
+    #welcome h4{
+        
+        font-size: 20px;
+    }
+    #welcome h1{
+        
+        font-size: 50px;
+    }
+}
+#work{
+    margin-top: 10%;
+    background-image: url('https://img.freepik.com/free-photo/abstract-luxury-plain-blur-grey-black-gradient-used-as-background-studio-wall-display-your-products_1258-63641.jpg?w=2000');
+    padding-top: 8%;
+    background-position: center;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.viewbtn{
+    color: white;
+    background-color: var(--x);
+    border-color: var(--x);
+}
+.viewbtn:hover{
+    color: var(--x);
+    background-color: white;
+    border-color: var(--x);
+}
+#about{
+    background-color: rgba(219,219,219);
+    padding: 10% 0%;
+    
+}
+#hr{
+    width: 10rem;
+    height: 0.4rem;
+    background-color: var(--x);
+}
+#about h1{
+    color: var(--x);
+
+}
+#about p{
+    text-align: justify;
+}
+#aboutimage{
+    border: 7px solid var(--x);
+    width: 100%;
+    height: 490px;
+    padding-top: 4%;
+    padding-left: 4%;
+}
+.projGDIV2{
+    width: 55%;
+    height: 15%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.921);
+   
+    position: absolute;
+    bottom: 0px;
+}
+.projGDIV1
+{
+    
+    width: 100%;
+    height: 100%;
+}
+.projGDIV1 img{
+    position: absolute;
+    height: 100%;
+}
+.projGDIV3{
+    width: 55%;
+    height: 20%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.921);
+    
+    position: absolute;
+    bottom: 0px;
+}
